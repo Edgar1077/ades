@@ -7,30 +7,30 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="form-container">
+    <div class="contenedor">
         <h2>Estudiantes de Cymetria</h2>
         <form action="#" method="post">
-            <div class="form-group">
+            <div class="formulario">
                 <label for="nombre">Nombre completo</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
-                <small class="validation-message" id="nombre-error">El nombre completo es obligatorio.</small>
+                <input type="texto" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
+                <small class="validar-mensaje" id="nombre-error">El nombre completo es obligatorio.</small>
             </div>
-            <div class="form-group">
+            <div class="formulario">
                 <label for="correo">Correo electrónico</label>
                 <input type="email" id="correo" name="correo" placeholder="Ej: username@correo.co" required>
-                <small class="validation-message" id="correo-error">Ingrese un correo electrónico válido.</small>
+                <small class="validar-mensaje" id="correo-error">Ingrese un correo electrónico válido.</small>
             </div>
-            <div class="form-group">
+            <div class="formulario">
                 <label>¿Qué curso estás tomando en Cymetria?</label>
-                <div class="checkbox-group">
+                <div class="clases">
                     <label><input type="checkbox" name="curso" value="sql-server"> SQL- SERVER</label>
                     <label><input type="checkbox" name="curso" value="frontend"> Frontend</label>
                     <label><input type="checkbox" name="curso" value="fullstack"> FullStack</label>
                 </div>
             </div>
-            <div class="form-group">
+            <div class="formulario">
                 <label>¿Cuáles lenguajes de programación te gustaría seguir aprendiendo?</label>
-                <div class="checkbox-group">
+                <div class="clases">
                     <label><input type="checkbox" name="lenguajes" value="python"> Python</label>
                     <label><input type="checkbox" name="lenguajes" value="javascript"> JavaScript</label>
                     <label><input type="checkbox" name="lenguajes" value=".net"> .Net</label>
@@ -39,9 +39,9 @@
                     <label><input type="checkbox" name="lenguajes" value="php"> PHP</label>
                 </div>
             </div>
-            <div class="form-buttons">
-                <button type="button" class="cancel-btn">Cancelar</button>
-                <button type="submit" class="submit-btn">Enviar</button>
+            <div class="boton">
+                <button type="cancelar" class="cancelar-boton">Cancelar</button>
+                <button type="enviar" class="enviar-boton">Enviar</button>
             </div>
         </form>
     </div>
